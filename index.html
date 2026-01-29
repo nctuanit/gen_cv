@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <title>Nguyen Chau Tuan - Fullstack Software Engineer</title>
@@ -7,10 +8,13 @@
   <!-- Be Vietnam Pro -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
 
   <style>
-    * { box-sizing: border-box; }
+    * {
+      box-sizing: border-box;
+    }
 
     :root {
       --text: #111827;
@@ -31,7 +35,7 @@
       width: 210mm;
       min-height: 297mm;
       padding: 16px 30px 16px 16px;
-      margin: 10px auto;
+      margin: 0px auto;
       background: #ffffff;
       color: var(--text);
       font-size: 13px;
@@ -63,14 +67,18 @@
       margin: 0;
     }
 
-    p { margin: 6px 0; }
+    p {
+      margin: 6px 0;
+    }
 
     ul {
       padding-left: 18px;
       margin: 6px 0;
     }
 
-    li { margin-bottom: 5px; }
+    li {
+      margin-bottom: 5px;
+    }
 
     /* ===== Header ===== */
     .header {
@@ -154,7 +162,7 @@
       margin-top: 12px;
     }
 
-    .bottom > div {
+    .bottom>div {
       flex: 1;
     }
 
@@ -172,166 +180,171 @@
       cursor: pointer;
     }
 
-    button:hover { background: #f9fafb; }
+    button:hover {
+      background: #f9fafb;
+    }
 
     @media print {
-      button { display: none; }
+      button {
+        display: none;
+      }
     }
   </style>
 </head>
 
 <body>
 
-<button onclick="exportPDF()">Export PDF</button>
+  <button onclick="exportPDF()">Export PDF</button>
 
-<div id="cv">
-  <div class="page">
-
-    <!-- HEADER -->
-    <div class="header">
-      <div>
-        <h1>Nguyen Chau Tuan</h1>
-        <div class="role">
-          <span class="hl">Fullstack Software Engineer</span> (Frontend & Backend)
-        </div>
-      </div>
-      <div class="contact">
-        Di An City, Binh Duong, Vietnam<br>
-        +84 986 439 611<br>
-        nctuan.dev@gmail.com
-      </div>
-    </div>
-
-    <!-- SUMMARY -->
-    <h2>Professional Summary</h2>
-    <p>
-      <span class="hl">Fullstack Software Engineer</span> with <span class="hl">3+ years</span> of experience
-      in developing, maintaining, and deploying web applications.
-      Strong background in <span class="hl">frontend</span> and <span class="hl">backend development</span>,
-      <span class="hl">system analysis</span> and design,
-      <span class="hl">DevOps</span> practices, and
-      <span class="hl">production operations</span>.
-    </p>
-
-    <!-- RESPONSIBILITIES -->
-    <h2>Core Responsibilities</h2>
-    <ul>
-      <li>Develop <span class="hl">fullstack applications</span> (frontend & backend).</li>
-      <li>Participate in <span class="hl">requirement analysis</span> and <span class="hl">system design</span>.</li>
-      <li>Maintain, upgrade, and optimize <span class="hl">existing software systems</span>.</li>
-      <li>Analyze <span class="hl">customer</span> and <span class="hl">business requirements</span>.</li>
-      <li>Provide <span class="hl">system maintenance</span> and <span class="hl">technical support</span>.</li>
-      <li>Research and apply <span class="hl">new technologies</span>.</li>
-      <li>Collaborate with <span class="hl">cross-functional teams</span>.</li>
-      <li>Support <span class="hl">deployment</span> and system usage.</li>
-    </ul>
-
-    <!-- EXPERIENCE -->
-    <h2>Work Experience</h2>
-
-    <div class="job">
-      <div class="job-header">
+  <div id="cv">
+    <div class="page">
+      <!-- HEADER -->
+      <div class="header">
         <div>
-          <div class="company">Norway Pharmatech AS</div>
-          <h3>Fullstack Software Engineer</h3>
+          <h1>Nguyen Chau Tuan</h1>
+          <div class="role">
+            <span class="hl">Fullstack Software Engineer</span> (Frontend & Backend)
+          </div>
         </div>
-        <div class="date">Apr 2024 – Present</div>
-      </div>
-      <ul>
-        <li>Participated in the <span class="hl">full software development lifecycle</span>.</li>
-        <li>Refactored legacy systems into <span class="hl-box">microservices</span> architecture.</li>
-        <li>Designed and implemented <span class="hl-box">CI/CD</span> pipelines using
-            <span class="hl-box">Jenkins</span> and <span class="hl-box">Docker</span>.
-        </li>
-        <li>Handled <span class="hl">end-to-end deployment</span> and server management.</li>
-        <li>Optimized performance using <span class="hl-box">Redis</span>.</li>
-      </ul>
-    </div>
-
-    <div class="job">
-      <div class="job-header">
-        <div>
-          <div class="company">ThoMi Group</div>
-          <h3>Software Engineer</h3>
+        <div class="contact">
+          Di An City, Binh Duong, Vietnam<br>
+          +84 986 439 611<br>
+          nctuan.dev@gmail.com
         </div>
-        <div class="date">Jul 2021 – Nov 2023</div>
       </div>
+
+      <!-- SUMMARY -->
+      <h2>Professional Summary</h2>
+      <p>
+        <span class="hl">Fullstack Software Engineer</span> with <span class="hl">3+ years</span> of experience
+        in developing fullstack applications (frontend & backend).
+        Proficient in <span class="hl">DevOps</span> practices including <span class="hl">CI/CD</span>, <span class="hl">Docker</span>, <span class="hl">Kubernetes</span>,
+        and <span class="hl">end-to-end deployment</span> from development to production.
+        Strong background in <span class="hl">system analysis</span>, design, database management (<span class="hl">SQL</span> and <span class="hl">NoSQL</span>),
+        <span class="hl">RESTful API</span> and <span class="hl">GraphQL</span> development.
+      </p>
+
+      <!-- RESPONSIBILITIES -->
+      <h2>Core Responsibilities</h2>
       <ul>
-        <li>Developed <span class="hl">fullstack web applications</span>.</li>
-        <li>Worked with <span class="hl-box">SQL</span> and <span class="hl-box">NoSQL</span> databases.</li>
-        <li>Built and maintained <span class="hl-box">CI/CD</span> pipelines.</li>
+        <li>Develop <span class="hl">fullstack applications</span> (frontend & backend) and participate in <span class="hl">analysis</span>, <span class="hl">design</span>, and <span class="hl">system development</span> for company projects.</li>
+        <li>Modify, enhance, and upgrade <span class="hl">existing applications</span> and software systems.</li>
+        <li>Research and analyze <span class="hl">customer needs</span> for products/services.</li>
+        <li>Provide <span class="hl">system maintenance</span>, warranty, and <span class="hl">technical support</span>.</li>
+        <li>Research and apply <span class="hl">new technologies</span> to software development processes.</li>
+        <li>Collaborate with <span class="hl">other departments</span> to improve company processes and products.</li>
+        <li>Support users and departments in <span class="hl">deployment</span> and usage of technology infrastructure and applications.</li>
       </ul>
-    </div>
 
-    <!-- SKILLS -->
-    <h2>Technical Skills</h2>
-    <div class="grid-2">
-      <div><span class="label">Backend:</span>
-        <span class="hl-box">Node.js</span>,
-        <span class="hl-box">NestJS</span>,
-        <span class="hl-box">.NET Core</span>
-      </div>
-      <div><span class="label">Frontend:</span>
-        <span class="hl-box">React</span>,
-        HTML, CSS, TypeScript
-      </div>
-      <div><span class="label">Databases:</span>
-        <span class="hl-box">PostgreSQL</span>,
-        <span class="hl-box">MySQL</span>,
-        <span class="hl-box">MongoDB</span>
-      </div>
-      <div><span class="label">DevOps:</span>
-        <span class="hl-box">CI/CD</span>,
-        <span class="hl-box">Docker</span>,
-        <span class="hl-box">Kubernetes</span>
-      </div>
-      <div><span class="label">API:</span>
-        <span class="hl-box">RESTful API</span>,
-        <span class="hl-box">GraphQL</span>
-      </div>
-      <div><span class="label">Tools:</span>
-        <span class="hl-box">Git</span>, Agile/Scrum
-      </div>
-    </div>
+      <!-- EXPERIENCE -->
+      <h2>Work Experience</h2>
 
-    <!-- BOTTOM -->
-    <div class="bottom">
-      <div>
-        <h2>Strengths</h2>
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="company">Norway Pharmatech AS</div>
+            <h3>Fullstack Software Engineer</h3>
+          </div>
+          <div class="date">Apr 2024 – 2025</div>
+        </div>
         <ul>
-          <li><span class="hl">Strong logical</span> and algorithmic thinking.</li>
-          <li>Ability to work <span class="hl">independently</span> or in a team.</li>
-          <li><span class="hl">Proactive</span>, self-learning, and adaptable.</li>
-          <li>High <span class="hl">ownership mindset</span> for system quality.</li>
+          <li>Developed <span class="hl">fullstack applications</span> (frontend & backend) and participated in system analysis, design, and development.</li>
+          <li>Modified, enhanced, and upgraded existing software systems and applications.</li>
+          <li>Designed and implemented <span class="hl-box">CI/CD</span> pipelines using <span class="hl-box">Jenkins</span> and <span class="hl-box">Docker</span>.</li>
+          <li>Managed <span class="hl-box">Kubernetes</span> clusters and handled <span class="hl">end-to-end deployment</span> from development to production environments.</li>
+          <li>Performed server management and infrastructure maintenance.</li>
+          <li>Collaborated with cross-functional teams to improve processes and products.</li>
         </ul>
       </div>
-      <div>
-        <h2>Education</h2>
-        <p>
-          <strong>Lac Hong University</strong><br>
-          Bachelor of Information Technology
-        </p>
+
+      <div class="job">
+        <div class="job-header">
+          <div>
+            <div class="company">ThoMi Group</div>
+            <h3>Software Engineer</h3>
+          </div>
+          <div class="date">Jul 2021 – Nov 2023</div>
+        </div>
+        <ul>
+          <li>Developed <span class="hl">fullstack web applications</span> using modern frameworks and technologies.</li>
+          <li>Worked with <span class="hl-box">SQL</span> and <span class="hl-box">NoSQL</span> databases for data management.</li>
+          <li>Built and maintained <span class="hl-box">CI/CD</span> pipelines for automated deployment.</li>
+          <li>Analyzed customer and business requirements for product development.</li>
+          <li>Provided technical support and system maintenance for existing applications.</li>
+          <li>Researched and applied new technologies to improve development processes.</li>
+        </ul>
       </div>
+
+      <!-- SKILLS -->
+      <h2>Technical Skills</h2>
+      <div class="grid-2">
+        <div><span class="label">Backend:</span>
+          <span class="hl-box">Node.js</span>,
+          <span class="hl-box">NestJS</span>,
+          <span class="hl-box">.NET Core</span>
+        </div>
+        <div><span class="label">Frontend:</span>
+          <span class="hl-box">React</span>,
+          HTML, CSS, TypeScript
+        </div>
+        <div><span class="label">Databases:</span>
+          <span class="hl-box">PostgreSQL</span>,
+          <span class="hl-box">MySQL</span>,
+          <span class="hl-box">MongoDB</span>
+        </div>
+        <div><span class="label">DevOps:</span>
+          <span class="hl-box">CI/CD</span>,
+          <span class="hl-box">Docker</span>,
+          <span class="hl-box">Kubernetes</span>
+        </div>
+        <div><span class="label">API:</span>
+          <span class="hl-box">RESTful API</span>,
+          <span class="hl-box">GraphQL</span>
+        </div>
+        <div><span class="label">Tools:</span>
+          <span class="hl-box">Git</span>, Agile/Scrum
+        </div>
+      </div>
+
+      <!-- BOTTOM -->
+      <!-- <div class="bottom">
+        <div>
+          <h2>Strengths</h2>
+          <ul>
+            <li><span class="hl">Strong logical</span> and algorithmic thinking.</li>
+            <li>Ability to work <span class="hl">independently</span> or in a team.</li>
+            <li><span class="hl">Proactive</span>, self-learning, and adaptable.</li>
+            <li>High <span class="hl">ownership mindset</span> for system quality.</li>
+          </ul>
+        </div>
+        <div>
+          <h2>Education</h2>
+          <p>
+            <strong>Lac Hong University</strong><br>
+            Bachelor of Information Technology
+          </p>
+        </div>
+      </div> -->
+
     </div>
-
   </div>
-</div>
 
-<!-- html2pdf -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
-<script>
-  function exportPDF() {
-    const element = document.getElementById("cv");
-    const opt = {
-      margin: 0,
-      filename: 'Nguyen_Chau_Tuan_Fullstack_CV.pdf',
-      image: { type: 'jpeg', quality: 0.98 },
-      html2canvas: { scale: 2, useCORS: true },
-      jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
-    };
-    html2pdf().set(opt).from(element).save();
-  }
-</script>
+  <!-- html2pdf -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script>
+    function exportPDF() {
+      const element = document.getElementById("cv");
+      const opt = {
+        margin: 0,
+        filename: 'Nguyen_Chau_Tuan_Fullstack_CV.pdf',
+        image: { type: 'jpeg', quality: 0.98 },
+        html2canvas: { scale: 2, useCORS: true },
+        jsPDF: { unit: 'mm', format: 'a4', orientation: 'portrait' }
+      };
+      html2pdf().set(opt).from(element).save();
+    }
+  </script>
 
 </body>
+
 </html>
